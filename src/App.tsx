@@ -5,6 +5,7 @@ import {TopCars} from './topCars/TopCars.tsx';
 import {Button} from './button/Button.tsx';
 import {Counter} from './Counter.tsx';
 import {Banknotes} from './banknotes/Banknotes.tsx';
+import {App2} from './input/App2.tsx';
 
 function App() {
     const students = [
@@ -41,6 +42,7 @@ function App() {
             <Button name={'third'} onClick={onClickHandlerThird}/>
             <Counter/>
             <Banknotes/>
+            <App2/>
         </>
     );
 
