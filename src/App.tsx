@@ -6,6 +6,7 @@ import {Button} from './button/Button.tsx';
 import {Counter} from './Counter.tsx';
 import {Banknotes} from './banknotes/Banknotes.tsx';
 import {App2} from './input/App2.tsx';
+import {Dop3} from './todolist/Dop3.tsx';
 
 function App() {
     const students = [
@@ -43,6 +44,7 @@ function App() {
             <Counter/>
             <Banknotes/>
             <App2/>
+            <Dop3/>
         </>
     );
 
